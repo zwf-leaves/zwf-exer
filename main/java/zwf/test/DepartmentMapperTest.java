@@ -20,7 +20,9 @@ public class DepartmentMapperTest {
     EmployeeMapper employeeMapper=null;
     @Test
     public void selectByPrimaryKey() {
+        System.out.println("员工信息");
         System.out.println(employeeMapper.selectByPrimaryKey(199));
+
 
 
     }
